@@ -11,7 +11,7 @@
 	
 Fichier de configuration git : `$HOME/.gitconfig`
 
-### Initialise un projet git (Création d'une zone Git dépot vide)
+### Initialise un dépot git (Création d'une zone Git dépot vide)
 `git init`
 
 ### Indique le status du dépot
@@ -20,7 +20,7 @@ Fichier de configuration git : `$HOME/.gitconfig`
 ### Ajoute les fichiers à suivre pour en faire le commit après
 `git add *`
 
-### Mise en place de la liaison entre un le dépot git local et celui distant
+### Mise en place de la liaison entre un dépot git local et celui distant
 `git remote add origin <url>`
 
 ### Sauvegarde les modifications dans un commit en local avec le message first commit
