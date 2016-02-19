@@ -15,10 +15,11 @@
 - Configure l'adresse email de l'auteur des commits : `git config --global user.email "email@email.com"`
 
 ## Initialisation
-- Initialise un dépot git __local__ : `git init`
-- Mise en place de la liaison entre un dépot git local et celui distant : `git remote add origin <url>`
-
-- Clone le dépot distant sur le local : `git clone <url>`
+- En local
+  - Initialise un dépot git __local__ : `git init`
+  - Mise en place de la liaison entre un dépot git local et celui distant : `git remote add origin <url>`
+- Depuis le distant
+  - Clone le dépot distant sur le local : `git clone <url>`
 
 ## Commande usuel
 - Ajoute les fichiers à suivre : `git add <file>` et `git add *`
